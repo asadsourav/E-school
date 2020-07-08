@@ -3,16 +3,19 @@
     margin-left: 140px;
 }
 .navbar-nav{
-    padding-right: 40px;
+    padding-right: 50px;
 }
-.nav-item{
-    padding: 20px;
+.nav-item:hover{
+    background-color: #21b573;
+    border-radius: 15px;
 }
-.top-part,.navbar,header{
-    background-image: url("images/Photos/Rectangle\ 21.png");
+header,.top-part,.navbar-light{
+    background-image: url("images/Photos/Rectangle 21.png");
+    background-position: center;
+    background-size: cover;
 }
 .top-part{
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
 }
 span{
@@ -72,6 +75,13 @@ border-radius: 33px;
     margin-top: 88px;
     margin-bottom: 69px;
 }
+#stu-review{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 88px;
+    margin-bottom: 69px;
+}
+
 footer{
     margin-top: 121px;
     background-color: #282531;
@@ -88,6 +98,10 @@ footer p{
 footer a:hover{
     text-decoration: none;
     font-size: 17px;
+}
+#copywrite{
+    color: white;
+    text-align: center;
 }
 
 
